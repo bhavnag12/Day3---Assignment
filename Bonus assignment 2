@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Album Preview</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #f0f0f0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    audio {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 10px 0;
+    }
+    .lyrics {
+      white-space: pre-wrap;
+      font-style: italic;
+      background-color: #fff;
+      padding: 10px;
+      border-left: 4px solid #3498db;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎵 Album Preview: "Echoes of Tomorrow"</h1>
+
+  <section>
+    <h2>Album Cover</h2>
+    <img src="album-cover.jpg" alt="Echoes of Tomorrow Album Cover" style="width: 100%; max-width: 300px; border-radius: 8px;">
+  </section>
+
+  <section>
+    <h2>Track: "Future's Embrace"</h2>
+    <p><strong>Artist:</strong> The Time Travelers</p>
+    <p><strong>Album:</strong> Echoes of Tomorrow</p>
+    <p><strong>Released:</strong> 2025</p>
+  </section>
+
+  <section>
+    <h2>Listen to the Track</h2>
+    <audio controls>
+      <source src="track.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2>Lyrics</h2>
+    <div class="lyrics">
+      In the year 2025, we journey through time...
+      Echoes of the past, whispers of the future..
+    </div>
+  </section>
+
+</body>
+</html>
